@@ -46,7 +46,9 @@ _CHALLENGE_SELECTORS = [
   # Custom CloudFlare for EbookParadijs, Film-Paleis, MuziekFabriek and Puur-Hollands
   'td.info #js_info',
   # Fairlane / pararius.com
-  'div.vc div.text-box h2'
+  'div.vc div.text-box h2',
+  # fps
+  '.cb-lb input'
 ]
 
 _SHORT_TIMEOUT = 1
